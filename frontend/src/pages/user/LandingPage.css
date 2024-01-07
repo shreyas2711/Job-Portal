@@ -1,0 +1,156 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.root{
+    background-color: rgb(226 231 236 / 97%);
+    /* margin-top: -3rem; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+   
+  }
+  
+  .box1 {
+    margin-left: 5rem; /* Adjust spacing as needed */
+    width: 59rem;
+    background-color: white;
+  }
+  
+  .box2 {
+    margin-left: 0px; /* Adjust spacing as needed */
+    background-color: white;
+    width: 25rem;
+  }
+
+  .Details{
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-top:23rem;
+    
+}
+
+
+
+
+.Details h2{
+    margin-bottom: 25px;
+    padding-left: 1rem;
+}
+
+
+.jobs{
+    font-size: 11px;
+    margin: 16px;
+    margin-top: 35px;
+    font-family: 'Hanken Grotesk';
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs a{
+    margin-top: 40px
+}
+
+.sub-details{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 56rem;
+    margin-left: 2rem;
+    height: 55px;
+    background-image: linear-gradient(to right,#1fa2ff 0,#12d8fa 50%,#1fa2ff 100%)
+    /* background-image: linear-gradient(to right, #6b14e1 0, #9328ff 50%, #6b14e1 100%); */
+    /* color: #ffffff; Set text color to white for contrast */
+   
+
+}
+
+.sub-details-p{
+    width:51rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.Details p strong {
+    font-weight: bold;
+  
+}
+
+.Details h2{
+    padding: 9px;
+}
+
+
+
+.key-resp h2{
+    padding: 9px;
+}
+
+.req-skills h2{
+    padding: 9px;
+}
+.job-desc h2{
+    padding: 9px;
+}
+
+.key-resp-bullets{
+    margin-left: 16px;
+    margin-top: 1rem;
+}
+
+.thumbnail-post{
+    margin-left: 15rem
+}
+
+.Details p{
+    margin-bottom: 15px;
+    margin-left: 44px;
+    margin-top: 1rem;
+}
+
+/* .job-desc p{
+    width: 49rem;
+    padding: 5rem;
+    margin-left: -2rem;
+    margin-top: -3rem;
+} */
+
+.key-resp ul{
+    margin-bottom: 15px;
+    margin-left: 52px;
+    margin-top: 1rem;
+}
+
+.req-skills ul{
+    margin-bottom: 15px;
+    margin-left: 52px;
+    margin-top: 1rem;
+}
+
+
+.job-title{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 41rem;
+
+}
+
+.job-desc p{
+    width: 57rem;
+    padding: 5rem;
+    margin-left: -2rem;
+    margin-top: -3rem;
+    line-height: 23px;
+}
+
+
+
+
+
