@@ -28,11 +28,11 @@ const Home = () => {
 
     useEffect(() => {
         dispatch(jobLoadAction(page, keyword, cat, location));
-    }, [page, keyword, cat, location]);
+    }, [dispatch,page, keyword, cat, location]);
 
     useEffect(() => {
         dispatch(jobTypeLoadAction());
-    }, []);
+    }, [dispatch]);
 
     const handleChangeCategory = (e) => {
         setCat(e.target.value);

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../component/Navbar';
 
 const Login = ( {setIsAuth} ) => {
   const [formData, setFormData] = useState({ email: '', password: '' });
@@ -47,7 +48,8 @@ const Login = ( {setIsAuth} ) => {
 
   return (
     <>
-      <form onSubmit={handleFormSubmit}>
+    <Navbar/>
+      <form onSubmit={handleFormSubmit} style={{marginTop:'5rem'}}>
         <input
           type="text"
           name="email"
